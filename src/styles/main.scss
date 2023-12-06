@@ -2,6 +2,7 @@
 @use 'hero';
 @use 'shows';
 @use 'plans';
+@use 'available_devices';
 
 @font-face {
     font-family: Avenir;
@@ -122,7 +123,6 @@ body {
             display: flex;
             flex-direction: column;
             justify-content: center;
-            
         }
     }
 }
