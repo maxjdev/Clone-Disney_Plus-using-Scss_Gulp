@@ -11,6 +11,7 @@
         &__item {
             background-color: #13151d;
             margin-bottom: 16px;
+            border-radius: 10px;
 
             &__question {
                 color: #fff;
@@ -36,7 +37,7 @@
                 height: 0;
                 overflow: hidden;
                 padding: 0 24px;
-                transition: heigh, .5s ease;
+                transition: height, .5s ease;
             }
 
             &--is-open {
@@ -44,11 +45,10 @@
                     content: '-';
                 }
 
-
                 .faq__questions__item__answer {
                     height: auto;
                     padding-bottom: 24px;
-                    transition: heigh, .5s ease;
+                    transition: height, .5s ease;
                 }
             }
         }
