@@ -9,7 +9,7 @@
         grid-template-columns: 1fr 1fr 1fr;
         gap: 24px;
 
-        @media (max-width: 768px) {
+        @media (max-width: 767px) {
             grid-template-columns: 1fr 1fr;
         }
 
@@ -17,7 +17,7 @@
             display: grid;
         }
 
-        @media (max-width: 768px) {
+        @media (max-width: 767px) {
             font-size: 16px;
         }
 

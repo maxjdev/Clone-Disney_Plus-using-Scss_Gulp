@@ -46,7 +46,7 @@ body {
 .text--big {
     @include text(18px);
 
-    @media (max-width: 768px) {
+    @media (max-width: 767px) {
         @include text(15px);
     }
 }
@@ -54,7 +54,7 @@ body {
 .text {
     @include text;
 
-    @media (max-width: 768px) {
+    @media (max-width: 767px) {
         @include text(14px);
     }
 }
@@ -62,7 +62,7 @@ body {
 .text--small {
     @include text(12px);
 
-    @media (max-width: 768px) {
+    @media (max-width: 767px) {
         @include text(11px);
     }
 }
@@ -76,7 +76,7 @@ body {
 .title--big {
     @include title(44px);
 
-    @media (max-width: 768px) {
+    @media (max-width: 767px) {
         @include title(26px);
     }
 }
@@ -84,7 +84,7 @@ body {
 .title {
     @include title;
 
-    @media (max-width: 768px) {
+    @media (max-width: 767px) {
         @include title(24px);
     }
 }
@@ -92,7 +92,7 @@ body {
 .title--small {
     @include title(28px);
     
-    @media (max-width: 768px) {
+    @media (max-width: 767px) {
         @include title(22px);
     }
 }
@@ -145,7 +145,7 @@ body {
     grid-template-columns: 1fr 1fr;
     align-items: center;
 
-    @media (max-width: 768px) {
+    @media (max-width: 767px) {
         display: block;
     }
 
@@ -179,7 +179,7 @@ body {
             flex-direction: column;
             justify-content: center;
 
-            @media (max-width: 768px) {
+            @media (max-width: 767px) {
                 position: relative;
                 left: 0;
                 width: 100%;

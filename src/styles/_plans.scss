@@ -10,8 +10,9 @@
         justify-content: space-around;
         margin-top: 50px;
 
-        @media (max-width: 768px) {
-            display: block;
+        @media (max-width: 767px) {
+            display: grid;
+            justify-content: center;
         }
 
         .button {
