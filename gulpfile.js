@@ -34,7 +34,7 @@ function htmlmini () {
 
 exports.default = gulp.parallel(styles, images, scripts, htmlmini);
 exports.watch = function() {
-    gulp.watch('./dist/styles/*.scss', gulp.parallel(styles))
-    gulp.watch('./dist/scripts/*.js', gulp.parallel(scripts))
-    gulp.watch('./dist/*.html', gulp.parallel(htmlmini))
+    gulp.watch('./src/styles/*.scss', gulp.parallel(styles))
+    gulp.watch('./src/scripts/*.js', gulp.parallel(scripts))
+    gulp.watch('./src/*.html', gulp.parallel(htmlmini))
 }
