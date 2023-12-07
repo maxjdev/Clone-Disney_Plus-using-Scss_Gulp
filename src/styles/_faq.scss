@@ -7,7 +7,6 @@
     }
 
     &__questions {
-
         &__item {
             background-color: #13151d;
             margin-bottom: 16px;
@@ -17,19 +16,14 @@
                 color: #fff;
                 font-size: 20px;
                 padding: 24px;
-                display: block;
-                cursor: pointer;
-                position: relative;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
 
                 &::after {
                     content: '+';
-                    position: absolute;
-                    top: 0;
-                    right: 24px;
-                    height: 100%;
-                    display: flex;
-                    align-items: center;
                     font-size: 40px;
+                    margin-left: 12px;
                 }
             }
 
