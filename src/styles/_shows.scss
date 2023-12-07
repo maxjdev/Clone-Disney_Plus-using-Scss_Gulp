@@ -39,11 +39,6 @@
         display: flex;
         justify-content: center;
 
-        @media (max-width: 768px) {
-            white-space: nowrap;
-            overflow-x: scroll;
-        }
-
         &__button {
             color: variaveis.$corTextoSecundario;
             font-size: 20px;
