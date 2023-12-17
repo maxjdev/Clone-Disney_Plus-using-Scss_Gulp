@@ -66,3 +66,6 @@ J Max Dev
 
 
 **Nota:** Este projeto é um clone desenvolvido por motivos educacionais e não possui afiliação oficial com a Disney+.
+<h3 align="center">
+  <i>Agradeço por explorar a minha versão da Disney+ e espero que sua experiência seja incrível!</i>
+</h3>
