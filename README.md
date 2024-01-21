@@ -1,71 +1,58 @@
 <div align="center">
-  <img src="https://i.postimg.cc/3xbR5F7H/rounded-in-photoretrica.png" width="150">
   
-  # Desenvolvedor Full Stack Java: Front-End - EBAC   
+  ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+  ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+  ![SASS](https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white)
+  ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+  ![Gulp](https://img.shields.io/badge/GULP-%23CF4647.svg?style=for-the-badge&logo=gulp&logoColor=white)
 
-## Projeto: Clone Disney+ <a href="https://clone-disney-plus-woad.vercel.app/">Visite o site</a>
+  ## Project: Clone Disney+ <a href="https://clone-disney-plus-woad.vercel.app/">Deploy</a>
 </div>
-
-Este projeto é um clone da interface do Disney+, desenvolvido utilizando HTML, CSS, SCSS, JavaScript, NPM e Gulp. A programação em JavaScript foi utilizada para implementar funcionalidades como abas, header e listas interativas. O Sass foi organizado em arquivos separados para modularidade, incluindo `_available_devices.scss`, `_faq.scss`, `_footer.scss`, `_header.scss`, `_hero.scss`, `main.scss`, `_plans.scss`, `_shows.scss`, e `_variaveis.scss`.
 
 <div align="center"><a href="https://clone-disney-plus-woad.vercel.app/"><img src="https://i.postimg.cc/RCLffrF9/screencapture-127-0-0-1-5500-dist-index-html-2023-12-07-19-59-57.png" alt="imagem do projeto pronto"></a></div>
 
-## Estrutura do Projeto
+## Description
 
-- `index.html`: Estrutura básica do HTML com inclusão dos estilos e scripts necessários.
-- `css/`: Pasta que contém os arquivos CSS organizados modularmente.
-- `images/`: Diretório que armazena as imagens utilizadas no projeto.
-- `js/main.js`: Arquivo JavaScript que implementa funcionalidades interativas.
+This project is a clone of the Disney+ interface, developed using HTML, CSS, SCSS, JavaScript, NPM and Gulp. JavaScript programming was used to implement features such as tabs, headers and interactive lists. Sass has been organized into separate files for modularity, including `_available_devices.scss`, `_faq.scss`, `_footer.scss`, `_header.scss`, `_hero.scss`, `main.scss`, `_plans.scss`, `_shows.scss`, e `_variaveis.scss`.
 
-## Como Executar o Projeto
+## Project Structure
 
-1. Clone o repositório: `git clone https://github.com/seu-usuario/seu-projeto.git`
-2. Instale as dependências: `npm install`
-3. Execute o comando de build: `npm run build`
-4. Abra o arquivo `index.html` em um navegador da web.
+- `index.html`: Basic structure of HTML with inclusion of the necessary styles and scripts.
+- `css/`: Folder that contains CSS files organized modularly.
+- `images/`: Directory that stores the images used in the project.
+- `js/main.js`: JavaScript file that implements interactive features.
 
-## Recursos e Funcionalidades
+## How to Execute the Project
+
+1. Clone the repository: `git clone https://github.com/seu-usuario/seu-projeto.git`
+2. Install dependencies: `npm install`
+3. Run the build command: `npm run build`
+4. Open the `index.html` file in a web browser.
+
+## Features and Functionality
 
 ### Header
-- Logo da Disney+.
-- Links para "Assine agora" e "Entrar".
+- Disney+ logo.
+- Links to "Subscribe Now" and "Join".
 
 ### Hero
-- Banner principal com chamada para ação e combos de assinatura.
+- Main banner with call to action and signature combos.
 
 ### Shows
-- Abas interativas para mostrar conteúdos "Em breve", "Mais populares" e "Mais no Star+".
-- Lista de shows com imagens.
+- Interactive tabs to show "Coming Soon", "Most Popular" and "More on Star+" content.
+- List of shows with images.
 
 ### Plans
-- Opções de planos de assinatura com informações e botões de assinatura.
+- Subscription plan options with information and subscription buttons.
 
 ### Image Text Sections
-- Seções com imagens e textos explicativos sobre como assistir ao conteúdo e baixar filmes e séries.
+- Sections with images and explanatory texts on how to watch content and download films and series.
 
 ### Available Devices
-- Lista de dispositivos compatíveis com o Disney+.
+- List of devices compatible with Disney+.
 
 ### FAQ
-- Perguntas frequentes com respostas expansíveis.
+- Frequently asked questions with expandable answers.
 
 ### Footer
-- Links e informações adicionais, incluindo seleção de idioma.
-
-## Como Contribuir
-
-1. Faça um fork do projeto.
-2. Crie uma branch para suas alterações: `git checkout -b feature/nova-feature`.
-3. Faça commit das suas alterações: `git commit -m 'Adiciona nova feature'`.
-4. Faça push para a branch: `git push origin feature/nova-feature`.
-5. Abra um pull request.
-
-## Autor
-
-J Max Dev
-
-
-**Nota:** Este projeto é um clone desenvolvido por motivos educacionais e não possui afiliação oficial com a Disney+.
-<h3 align="center">
-  <i>Agradeço por explorar a minha versão da Disney+ e espero que sua experiência seja incrível!</i>
-</h3>
+- Additional links and information, including language selection.
